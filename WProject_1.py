@@ -47,6 +47,7 @@ def HashFind():
     hash_type = input("Enter the hash type you want (e.g., 'md5', 'sha256'): ").strip().lower()
     i_hash = input("Enter the hashed password: ").strip()
     p_doc = input("Enter password filename including path: ").strip()
+    
     # To Show the available "hash algorithms" in hashlib library
     #Type this : print(hashlib.algorithms_available)
 
